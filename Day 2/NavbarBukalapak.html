@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .mainnavbar {
+        width: 100vw;
+        background-color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+      }
+      .submainnavbar {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+      }
+      .sub2main {
+        width: 300px;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+      }
+      .txtsearch input {
+        height: max-content;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mainnavbar">
+      <div class="submainnavbar">
+        <div class="sub2main">
+          <img
+            src="https://assets.bukalapak.com/sigil/bukalapak-logo-primary.svg"
+            alt="https://assets.bukalapak.com/sigil/bukalapak-logo-primary.svg"
+          />
+        </div>
+        <div class="sub2main">
+          <div class="txtsearch">
+            <input type="text" placeholder="Pencaharian" />
+          </div>
+          <div class="imgsearch">
+            <button>
+              <img
+                src="data:image/png;base64,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"
+                alt=""
+                width="20px"
+                height="20px"
+              />
+            </button>
+          </div>
+        </div>
+        <div class="sub2main">
+          <div class="sub3main">kategori</div>
+          <div class="sub3main">
+            <select name="Produk Virtual" id="">
+              <option value="">pilih</option>
+              <option value="baju">Baju</option>
+              <option value="celana">Celana</option>
+              <option value="tas">Tas</option>
+            </select>
+          </div>
+        </div>
+        <div class="sub2main">
+          <div class="sub3main">Daftar</div>
+          <div class="sub3main">Login</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

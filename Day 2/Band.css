@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+}
+.navbar1 {
+  /* width: 100vw; */
+  height: 40px;
+  display: flex;
+}
+#navbar {
+  background-color: black;
+  /* width: 100vw; */
+}
+.navbar {
+  background-color: black;
+}
+/* .navbar1 div {
+  height: 100%;
+  justify-content: center;
+}
+.navbar1 div {
+  height: 100%;
+  width: 25%;
+  background-color: black;
+  color: white;
+  justify-content: center;
+} */
+.subnavbar1 {
+  background-color: aliceblue;
+}
+.home {
+  height: 100%;
+  width: 100px;
+  color: white;
+  /* text-align: center; */
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.home:hover {
+  background-color: rgb(108, 110, 112);
+  color: white;
+}
+
+.gambar img {
+  width: 150px;
+  height: 150px;
+}
+
+.gambar {
+  display: flex;
+  /* justify-content: center; */
+  /* gap: 20px; */
+  justify-content: space-evenly;
+}

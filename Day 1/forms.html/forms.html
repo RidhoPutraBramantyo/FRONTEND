@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Form</h1>
+    <form action="" method="post"></form>
+    <table>
+      <tr>
+        <th>Nama</th>
+        <td><input type="text" name="input" id="txt"/></td>
+      </tr>
+          <tr>
+        <th>Pass</th>
+        <td><input type="password" name="input" id="txt"></td>
+      </tr>
+      <tr>
+        <th>
+          <td>Front End<input type="checkbox" name="cb" id="cbFE"></td>
+          <td>Back End<input type="checkbox" name="cb" id="cbBE"></td>
+        </th>
+      </tr>
+
+       <tr>
+        <th>Gender</th>
+          <td>Pria<input type="radio" name="radio" id="rdFE"></td>
+          <td>Wanita<input type="radio" name="radio" id="rdBE"></td>
+      </tr>
+
+      <tr>
+        <th>Umur</th>
+          <td><input type="number" name="input" id="txtUmur" min="18" max="40"></td>
+      </tr>
+
+      <tr>
+        <th>Alamat</th>
+        <td>
+          <textarea name="input" id="taAlamat" cols="30" rows="10"></textarea>
+        </td>
+      </tr>
+
+      <tr>
+        <th>Hewan Kesukaan</th>
+        <td>
+          <select name="select" id="slcHK">
+            <option value="1">Ayam</option>
+            <option value="2">Kucing</option>
+            <option value="3">Kelinci</option>
+            <option value="4">Burung</option>
+            <option value="5">Hamster</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2">
+          <center>
+            <input type="submit" id="submit" />
+          </center>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2">
+          <center>
+            <button type="button">Ok</button>
+      <button type="button" onclick="ok();">Apply</button>
+
+          </center>
+        </td>
+      </tr>
+    </table>
+    </form>
+  </body>
+  <script>
+    function ok() {
+      alert('Data Saved')
+      
+    }
+  </script>
+</html>

@@ -1,0 +1,37 @@
+.Main_Div {
+  display: flex;
+  justify-content: center;
+}
+.Dōbutsu {
+  border-collapse: collapse;
+  color: black;
+  background-color: blanchedalmond;
+}
+.Dōbutsu th,
+td {
+  border: 2px solid black;
+  text-align: center;
+}
+.Nekoyama img {
+  width: 300px;
+  height: 200px;
+  padding: 5px;
+}
+
+.Usagichan img {
+  width: 300px;
+  height: 200px;
+  padding: 5px;
+}
+
+.Katatsumuri img {
+  width: 300px;
+  height: 200px;
+  padding: 5px;
+}
+
+.Harinezumi img {
+  width: 300px;
+  height: 200px;
+  padding: 5px;
+}
